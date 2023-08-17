@@ -1,7 +1,8 @@
 import React from 'react'
+import Board from './GameComponents/Board';
 
 function App() {
-  return ("Tic-Tac-Toe");
+  return <Board/>;
 }
 
 export default App;
